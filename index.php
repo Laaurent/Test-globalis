@@ -7,7 +7,7 @@ echo "<h1>Test Globalis - QUENEL Laurent</h1>";
 echo "<br>=======================================================================<br>";
 
 $question1 = "<h4>Expliquez, en quelques lignes, ce que fait la fonction foo().</h4>";
-$reponse1 = "La fonction foo() prends en paramètre une un tableau de couple formant un  intervalle ( ici représenté sous la forme de tableau de longueur 2 ) et renvoit l'intervalle simplifié des ces intervalles";
+$reponse1 = "La fonction foo() prend en paramètre un tableau de couple formant un intervalle ( ici représenté sous la forme d'un tableau de longueur 2 ) et renvoie l'intervalle simplifié de ces intervalles (une sorte d'union des intervalles).<br>";
 echo ($question1 . $reponse1);
 
 echo "<br><br>=======================================================================<br>";
@@ -32,5 +32,5 @@ foreach ($data as $value) {
 echo "<br>=======================================================================<br>";
 
 $question3 = "<h4>Précisez en combien de temps vous avez implémenté cette fonction.</h4>";
-$reponse3 = "J'ai implémenté la fonction foo() en 30 min le temps de réflêchir et de découvrir les différentes possibilités de traitement de l'intervalle.";
+$reponse3 = "J'ai implémenté la fonction foo() en 30 min le temps de réfléchir et de découvrir les différentes possibilités de traitement de l'intervalle.";
 echo ($question3 . $reponse3);
