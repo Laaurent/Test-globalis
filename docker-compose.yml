@@ -1,0 +1,9 @@
+services:
+   php:
+      build: ./docker/php
+      ports:
+         - 8000:8000
+      volumes:
+         - ./:/usr/src/myapp
+      extra_hosts:
+         - host.docker.internal:host-gateway
